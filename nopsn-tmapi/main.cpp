@@ -68,7 +68,7 @@ void ReadMemory(uint32_t offset, uint32_t length)
 
 void WriteMemory()
 {
-	SNPS3ProcessSetMemory(0, 0, puBuffer[0], 0, address32, 4, jmp);
+	SNPS3ProcessSetMemory(0, 0, puBuffer[0], 0, address32, 4, nop);
 }
 
 
