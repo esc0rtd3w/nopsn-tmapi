@@ -60,6 +60,7 @@ void ReadMemory(uint32_t offset, uint32_t length)
 
 		if (i == length - 1)
 		{
+			// Shows wrong instruction in display??
 			cout << "Address: " << hex << address32 << " / Hex Offset: " << hex << address32 - 0x10000 << " / Instruction: " << hex << results[0] << results[1] << results[2] << results[3] << "\n\n";
 		}
     }
